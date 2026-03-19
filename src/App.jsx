@@ -9,6 +9,10 @@ import Blog from "./pages/Blog";
 import Film from "./pages/Film";
 import Story from "./pages/Story";
 import Apple from './components/Apple';
+import Simple from './components/Simple';
+import Tab from './components/Tab';
+import CheckboxExample from './components/CheckboxExample';
+import Transactions from './components/Transactions';
 import Macbook from "./products/Macbook";
 import Ipad from "./products/IPAD";
 import Mobile from "./products/Mobile";
@@ -26,6 +30,10 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="story" element={<Story />} />
         </Route>
+        <Route path="/simple" element={<Simple />} />
+        <Route path="/tab" element={<Tab />} />
+        <Route path="/checkbox" element={<CheckboxExample />} />
+        <Route path="/transactions" element={<Transactions />} />
         <Route path="/apple" element={<Apple/>}>
         <Route path="macbook" element={<Macbook/>}/>
         <Route path="ipad" element={<Ipad/>} />

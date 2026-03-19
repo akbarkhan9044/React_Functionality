@@ -10,6 +10,9 @@ const Navbar = () => {
         <li><Link to="/new-otp">New OTP</Link></li>
         <li><Link to="/dashboard">Dashboard</Link></li>
         <li><Link to="/apple">Apple</Link></li>
+        <li><Link to="/simple">Simple</Link></li>
+        <li><Link to="/tab">Tab</Link></li>
+        <li><Link to="/checkbox">Checkbox</Link></li>
       </ul>
     </nav>
   )
